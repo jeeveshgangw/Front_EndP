@@ -1,3 +1,28 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-decoration:none ;
+ box-sizing: border-box;
+  background-color: #FBBC09;
+}
+#mainPinLogin{
+  margin-top: 30px;
+  margin-left: 540px;
+}
+.container-fluid{
+  background-color: #A20E37;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+h1{
+  padding-top: 20px;
+  text-align: center;
+}
+.navbar-brand.name{
+  padding-left: 530px;
+  font-size: 24px;
+  color: white;
+} 
 .pin-login {
     display: inline-block;
     border-radius: 10px;

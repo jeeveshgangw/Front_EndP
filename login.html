@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="css/style.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/login.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    text-decoration:none ;
+   box-sizing: border-box;
+}
+.container-fluid{
+    background-color: #A20E37;
+}
+.navbar-brand.name{
+    padding-left: 530px;
+    font-size: 24px;
+    color: white;
+} 
+.navbar-brand.faq{
+    padding-left: 500px;
+    color: white;
+    position:fixed;
+}
+.navbar-brand.faq p:hover{
+    position:fixed;
+    color: black;
+    background-color: white;
+}
+.container{
+width: 100%;
+height: 610px;
+margin-top:50px ;
+font-family: 'Raleway', sans-serif;
+position: relative;
+background-color: #FBBC09;
+}
+h3{
+background-color: #FEFFED;
+padding: 30px 35px;
+margin: -10px -25px;
+text-align:center;
+border-radius: 10px 10px 0 0;
+}
+hr{
+margin: 10px -50px;
+border: 0;
+border-top: 1px solid #ccc;
+margin-bottom: 40px;
+}
+.container h2{
+    position: absolute;
+    text-decoration: none;
+    background-color: #A20E37;
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 400px;
+    margin-left: 180px;
+    border-radius: 5px;
+}
+.main{
+    background-color: white;
+    position:absolute;
+width: 300px;
+padding: 10px 30px 25px;
+border: 2px solid gray;
+border-radius: 10px;
+font-family: raleway;
+margin-top:100px;
+margin-left:880px ;
+}
+.container img{
+    position: absolute;
+    padding-left: 270px;
+    padding-top: 170px;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand name" > की बैंक&nbsp&nbsp&nbsp<i class="fa fa-key" style="color: #FBBC09;" ></i>&nbsp&nbsp&nbspKEY BANK</a>
+          </div>
+          <div class="navbar-header">
+            <a class="navbar-brand faq" href="#"><p>FAQ</p></a>
+          </div>
+        </div>
+    </nav>
+<div class="container" ">
+    <img src="img/pnb.png" alt="">
+    <h2>WELCOME TO INTERNET BANKING</h2>
+    <div class="main">
+        <h3>Login</h3>
+            <form id="form_id" method="post" name="myform">
+                <label>User Name :</label>
+                <input type="text" name="username" id="username"/>
+                <label>Password :</label>
+                <input type="password" name="password" id="password"/>
+                <input type="button" value="Login" id="submit" onclick="validate()"/>
+            </form>
+            <span><b class="note">Note : </b>For this demo use following username and password. <br/><b class="valid">User Name : Jeevesh<br/>Password : jeevesh#123</b></span>
+    </div>
+</div>
+</body>
+</html>

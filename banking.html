@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <title>Internet Banking</title>
+    <style>
+         *{
+        margin: 0;
+        padding: 0;
+        text-decoration:none ;
+       box-sizing: border-box;
+    }
+    /*first navbar starts*/
+    .fixed-top-1{
+        background-color:#790a2a ;
+    }
+.fixed-top-1.navbar  a {
+    font-size: 15px;
+}
+.fixed-top-1  a,
+.fixed-top-1 {
+    padding-top: 3px !important;
+    padding-bottom: 0 !important;
+}
+.fixed-top-1 {
+   min-height: 40px !important ;
+}
+.navbar-center{
+  padding-left: 100px;
+}
+.navbar-center-1
+{
+    text-align: center;
+    margin-top:3px ;
+    padding-right: 100px;
+}
+/*first navbar ends*/
+/*second navbar starts*/
+.fixed-top-2{
+        margin-top: 40px;
+        background-color:#A20E37;
+        padding-top: 7px;
+        padding-bottom: 7px;
+}
+.navbar-left li{
+  float:right;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
+ .dropdown-menu li a:hover{
+  text-decoration: underline;
+ }
+ .nav.navbar-nav.navbar-right.nav-content li a{
+   color: white ;
+ }
+ .nav.navbar-nav.navbar-right.nav-content li a:hover{
+   background-color: white;
+   color: black;
+ }
+ .image{
+  padding: 10px 20px 5px 20px;
+  width: 250px;
+  height: 150px;
+ }
+ .sub-menu{
+   list-style: none;
+   padding-left: 40px;
+ }
+ 
+ /*second navbar ends*/
+ .container{
+    width: 100%;
+height: 580px;
+          margin-top: 105px;
+          background-color:  #FBBC09;
+          font-family: 'Raleway', sans-serif;
+        }
+        .balance{
+            background-color: #ecf0f1;
+            font-size: 18px;
+            width: 180px;
+            height: 50px;
+            text-align: center;
+            box-shadow:5px 5px 5px 2px rgba(0,0,0,0.4) ;
+          transition: all .2s linear;
+          float:right;
+          margin-top: 15px;
+        }
+        .balance a{
+            text-decoration: none;
+        }
+        .balance a:first-child{
+            color: #A20E37;
+        }
+        .container h2{
+    position: absolute;
+    text-decoration: none;
+    background-color: #A20E37;
+    padding: 10px;
+    color: whitesmoke;
+    margin-top: 400px;
+    margin-left: 620px;
+    border-radius: 5px;
+}
+.container img{
+    position: absolute;
+    padding-left: 720px;
+    padding-top: 170px;
+}
+        .foot{
+  background-color: whitesmoke;
+}
+.foot-left{
+  padding-top: 20px;
+  padding-left: 50px;
+  color: #A20E37;
+  float: left;
+  padding-bottom: 30px;
+}
+.foot-right{
+  float: right;
+  padding-top: 26px;
+  padding-right: 50px;
+}
+.foot-right a{
+  text-decoration: none;
+  color: black;
+}
+.foot-right a:hover{
+  color: #790a2a;
+}
+.sidenav {
+    margin-top: 105px;
+    height: 580px;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+     top: 0;
+     left: 0;
+  background-color: #A20E37;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.sidenav ul::first-line{
+  padding-top: 40px;
+}
+
+.sidenav ul li a {
+  padding: 6px 8px 20px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+}
+.sidenav ul li ul li a{
+  font-size: 15px;
+} 
+.sidenav a:hover {
+  color: black;
+}
+.sidenav ul li{
+  display: block;
+}
+
+    </style>
+</head>
+<body>
+     <!--first navbar starts-->
+     <nav class="navbar navbar-inverse navbar-fixed-top fixed-top-1">
+        <div class="container-fluid ">
+          <ul class="nav navbar-nav navbar-center">
+            <li><a href="#">Skip to main content&nbsp&nbsp&nbsp&nbsp|</a></li>
+            <li style="color: darkgrey;"><a href="#"></a>Sunday, September 06, 2020&nbsp&nbsp&nbsp&nbsp|</a></li>
+            <li><a href="#">हिंदी संस्करण&nbsp&nbsp&nbsp&nbsp|</a></li>
+            <li><a href="#">Home&nbsp&nbsp&nbsp&nbsp|</a></li>
+            <li><a href="#">Contact Us&nbsp&nbsp&nbsp&nbsp|</a></li>
+            <li><a href="#">Sitemap&nbsp&nbsp&nbsp&nbsp|</a></li>
+          </ul>
+          <form class="navbar-form navbar-center-1" action="/action_page.php" >
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" name="search" style="height: 20px;">
+              <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"style="height: 20px;  display: flex;
+                justify-content: center;
+                align-items: center;" >
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </nav>
+       <!--first navbar starts-->
+        <!--second navbar starts-->
+      <nav class="navbar navbar-inverse navbar-fixed-top fixed-top-2">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="font-family: URW Chancery L, cursive; color: white; font-size: 24px;padding-left: 110px;">KEY BANK</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right nav-content" style="padding-right: 100px; font-size:17px ;">
+            <li class="dropdown"><a href="#">Account<i class="fa fa-angle-down" "></i></a>
+                <ul class="dropdown-menu">
+                    <li><img src="img/bank-account.jpg" class="image"></li>
+                    <li><a href="#" style="color:#A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Savings Account</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Current Account</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Recurring Deposit Account</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Fixed Deposit account</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Demant Account</a>
+                    </li>
+                  </ul>
+             </li>
+            <li class="dropdown"><a href="#">Fund transfer<i class="fa fa-angle-down" "></i></a>
+                <ul class="dropdown-menu">
+                    <li><img src="img/money-transfer.png" style="width:200px; height: 200px;padding: 10px;padding-left: 50px;"></li>
+                    <li><a href="#" style="color:#A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  National Electronic Fund Transfer</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Real Time Gross Settlement</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Electronic Clearing System</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Immediate Payment Service</a></li>
+                   
+                  </ul>
+            </li>
+            <li class="dropdown"><a href="index.html">Bill Pay & Recharges</a>
+            </li>
+            <li class="dropdown"><a href="#">Mutual Funds<i class="fa fa-angle-down" "></i></a>
+                <ul class="dropdown-menu">
+                    <li><img src="img/mutual-funds.jpg" style="width:250px; height: 150px;padding: 10px;"></li>
+                    <li><a href="#" style="color:#A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Money market funds</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Fixed income funds</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Equity funds</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Balanced funds</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Index funds</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Specialty funds</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Fund-of-funds</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp others...</a></li>
+                  </ul>
+            </li>
+            <li class="dropdown"><a href="#">Insurance <i class="fa fa-angle-down" "></i></a>
+                <ul class="dropdown-menu">
+                    <li><img src="img/Insurance.jpg" style="width:250px; height: 150px;padding: 10px;"></li>
+                    <li><a href="#" style="color:#A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Health insurance</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Car insurance</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Life insurance</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Homeowners insurance</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Umbrella insurance</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Renters insurance</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Travel insurance</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Pet insurance</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp others...</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown"><a href="#">Loans<i class="fa fa-angle-down" "></i></a>
+                <ul class="dropdown-menu">
+                    <li><img src="img/loans.jpg" style="width:250px; height: 150px;padding: 10px;"></li>
+                    <li><a href="#" style="color:#A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Personal Loans</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp  Credit Card Loans</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Home Loans</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Car Loans</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Two-Wheeler Loans</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Small Business Loans</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Agriculture Loan</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Education Loan</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp Gold Loan</a></li>
+                    <li><a href="#" style="color: #A20E37;"><i class="fa fa-angle-right"></i>&nbsp&nbsp others...</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown"><a href="#">Offers</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+       <!--second navbar ends-->
+       <div class="container">
+        <div class="sidenav">
+          <ul>
+            <li><a href='#' style="padding-left: 40px;">Check Status</a></li>
+            <li class='sub-menu'><a href='#'style="padding-left: 0px; ">Statement<div class='fa fa-caret-down right' style="padding-left: 15px;" ></div></a>
+                <ul>
+                    <li><a href='#'>Mini-Statement</a></li>
+                    <li><a href='#'>Historical Statement</a></li>
+                </ul>
+            </li>
+            <li class='sub-menu'><a href='#' style="padding-left: 0px;">Enquiry<div class='fa fa-caret-down right' style="padding-left: 15px;"></div></a>
+                <ul>
+                    <li><a href='#'>Cardless Withdrawal</a></li>
+                    <li><a href='#'>OTP Transcation</a></li>
+                    <li><a href='#'>RTGS Fund Transfer</a></li>
+            <li><a href='#'>IMPS Fund Transfer</a></li>
+            <li><a href='#'>Passbook Request</a></li>
+                </ul>
+            </li>
+            <li class='sub-menu'><a href='#' style="padding-left: 0px;">Account Statement<div class='fa fa-caret-down right' style="padding-left: 15px;"></div></a>
+                <ul>
+                    <li><a href='#'>Current Year</a></li>
+                    <li><a href='#'>Previous Year</a></li>
+                </ul>
+            </li>
+        </ul>
+          </div>
+        <img src="img/pnb.png" alt="">
+           <h2>WELCOME TO INTERNET BANKING</h2>
+           <div class="balance">
+               <a>Balance:</a>
+               <a href="#">₹5,87,565.90</a>
+           </div>
+       </div>
+       <footer>
+        <div class="foot">
+           <div class="foot-left">
+             <h5 style="font-size: 15px;">Corporate Office: Plot No 4, Sector -10 Dwarka New Delhi -110075.<br><br>
+               Copyright © KEY BANK. All rights reserved.</h5>
+             </div>
+               <div class="foot-right">
+                   <a href="#">Screen Reader Accessibility&nbsp&nbsp|</a>
+                   <a href="#">Disclaimer&nbsp&nbsp|</a>
+                   <a href="#">Privacy Policy&nbsp&nbsp|</a>
+                   <a href="#">Contact Us&nbsp&nbsp|</a>
+                   <a href="#">Sitemap&nbsp&nbsp|</a>
+                   <a href="#"> Terms of use</a>
+                   <p style="padding-top: 10px;text-align: right;">Last Updated: 08-09-2020 | Application Development and Maintenance by Jeevesh
+                   </p>
+               </div>
+        </div>
+      </footer>
+      <script>
+        $(".sub-menu ul").hide();
+        $(".sub-menu a").click(function () {
+   $(this).parent(".sub-menu").children("ul").slideToggle("100");
+   $(this).find(".right").toggleClass("fa-caret-up fa-caret-down");
+ });
+     </script>
+</body>
+</html>
